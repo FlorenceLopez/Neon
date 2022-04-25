@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    font-family: HebrewRegular;
+    background-color: white;
+}
+
+.menuBar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(168, 123, 81);
+  }
+
+  .fa-brands, .fab{
+      font-size: 30px;
+      margin: 10px;
+  }
+
+  .fa-solid, .fas{
+      font-size: 30px;
+      margin: 10px;
+      margin-left: 10px;
+  }
+
+  .menuIcons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .facebook{
+    font-size: 25px;
+  }
+
+  .menu{
+    font-size: 25px;
+  }
+
+  a.fbLink{
+    text-decoration:none;
+    color:inherit
+  }
